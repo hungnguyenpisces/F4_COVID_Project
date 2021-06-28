@@ -1,12 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthy Life</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/homeStyle.css" type="text/css" />
+    <link rel="stylesheet" href="css/haidm-page1.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
-    
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="#" style="font-size: 20px; font-weight: 700;">
+                        <img class="logo-img" src="images/haidm-logo.jpg" alt="">
+                    </a>
+                </div>
+                <!-- Đặt link vào navbar -->
+                <div class="menu">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
+                        <li><a href="#"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
+                        <li><a href="#"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
+                        <li><a href="#"><i class="fas fa-heartbeat"></i> Track Your self</a></li>
+                        <li>
+                            <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+                            <ul id="hidden-menu" style="display: none;">
+                                <li><a href="##">Quick link 1</a></li>
+                                <li><a href="##">Quick link 2</a></li>
+                                <li><a href="##">Quick link 3</a></li>
+                                <li><a href="##">Quick link 4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="search-icon" href="#"><i class="fas fa-search fa-lg"></i></a>
+                            <div id="search-form" style="display: none;">
+                                <input type="text" name="search" placeholder="Search" id="" class="form-control" />
+                            </div>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" data-target="#myModal" href="#"><i
+                                    class="fas fa-address-card fa-lg"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Hết khu vực đặt link navbar -->
+            </div>
+
+            <!-- The Modal Sign In / Sign Up-->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -100px;">
+                    <div class="modal-content" style="padding: 20px;">
+                        <div class="container">
+                            <h2>Sign In / Sign Up</h2>
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                        name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                        name="pswd" required>
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-success">Sign In</button>
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <h2 style="text-align: center;">Đây là slogan hay câu nào đó hay hay</h2>
+                        <div class="item active">
+                            <img src="images/haidm-item1.jpg" alt="Image">
+                            <div class="carousel-caption">
+                                <h3>Sell $</h3>
+                                <p>Money Money.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/haidm-item1.jpg" alt="Image">
+                            <div class="carousel-caption">
+                                <h3>More Sell $</h3>
+                                <p>Lorem ipsum...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="main .col-md-12">
+            <div class="container">
+                <div class="category">
+                    <div class="col-md-12">
+                        <div class="category-items .col-sm-4">
+                            <div class="img-category">
+                                <span class="title-category1">
+                                    <a href="#">News</a>
+                                </span>
+                                <a href="#">
+                                    <img src="images/haidm-category-news.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category-items .col-sm-4">
+                            <div class="img-category">
+                                <span class="title-category2">
+                                    <a href="#">
+                                        Tips
+                                    </a>
+                                </span>
+                                <a href="#">
+                                    <img src="images/haidm-category-news.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category-items .col-sm-4">
+                            <div class="img-category">
+                                <span class="title-category3">
+                                    <a href="#">
+                                        Dietary Supplement
+                                    </a>
+                                </span>
+                                <a href="#">
+                                    <img src="images/haidm-category-news.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="container text-center">
+            <h2 class="title-content">
+                Thông tin tổng hợp
+            </h2>
+            <div class="row">
+                <div class="content col-sm-12">
+                    <div class="col-sm-4">
+                        <a href="#"><img class="img-item" src="images/haidm-item1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Đây là thông tin của item</h3>
+                    </div> 
+                    <div class="sidebar col-sm-4">
+                       <a href="#"><img class="img-author" src="images/haidm-logo.jpg" alt=""></a>
+                        <br>
+                        <div class="author">
+                            <h2>F4 TEAM</h2>
+                            <hr>
+                            <span class="slogan">
+                                Website chia sẻ kiến thức và thông tin về sức khỏe
+                            </span>
+                        </div>
+                    </div>  
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="content col-sm-12">
+                    <div class="col-sm-4">
+                        <h3>Đây là thông tin của item</h3>
+                    </div>
+                    <div class="col-sm-4">
+                       <a href="#"> <img class="img-item" src="images/haidm-item1.jpg" alt=""></a>
+                    </div>
+                     
+                    <div class="icon-social col-sm-4">
+                       <h3 class="subscribe-title"> SUBSCRIBE & FOLLOW</h3>
+                        <div class="icon-top">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square"></i></a>
+                         </div>
+                    </div>
+                    
+                </div>
+                <div class="button col-md-12">
+                    <button type="button" class="btn btn-success">READ MORE</button>
+                </div>       
+            </div>
+        </div>
+        <div class="container text-center">
+            <h2 class="title-content">Mẹo vặt cuộc sống</h2>
+            <div class="row">
+                <div class="content col-md-12">'
+                    <div class="col-sm-8">
+                        <figure>
+                            <img class="img-tips" src="images/haidm-item1.jpg" alt="">
+                            <figcaption>
+                                <span>
+                                    Đây là nội dung của item <br>
+                                    Đây là nội dung của item    <br>
+                                    Đây là nội dung của item <br>
+                                    Đây là nội dung của item <br>
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="recent-box col-sm-4">
+                        <h3 class="recent-title"> Recent Post</h3>
+                        <div class="col-md-12">
+                            <div class="col-md-5">
+                               <a href="#"> <img class="img-recent" src="images/haidm-item1.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-7">
+                                <a href="#">
+                                    <span>
+                                        Đây là nội dung item
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-5">
+                                <a href="#"> <img class="img-recent" src="images/haidm-item1.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-7">
+                                <a href="#">
+                                    <span>
+                                        Đây là nội dung item
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-5">
+                                <a href="#"><img class="img-recent" src="images/haidm-item1.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-7">
+                                <a href="#">
+                                    <span>
+                                        Đây là nội dung item
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button col-md-12">
+                <button type="button" class="btn btn-success">READ MORE</button>
+            </div>  
+        </div>
+        <div class="container text-center">
+            <h2 class="title-content">
+                Thông tin tổng hợp
+            </h2>
+            <div class="row">
+                <div class="content col-sm-12">
+                    <div class="col-sm-4">
+                        <a href="#"><img class="img-item" src="images/haidm-item1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Đây là thông tin của item</h3>
+                    </div> 
+                    
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="content col-sm-12">
+                    <div class="col-sm-4">
+                        <h3>Đây là thông tin của item</h3>
+                    </div>
+                    <div class="col-sm-4">
+                       <a href="#"> <img class="img-item" src="images/haidm-item1.jpg" alt=""></a>
+                    </div>
+                    <div class="poster1 col-sm-4">
+                        <img class="img-poster1" src="images/haidm-poster-1.jpg" alt="">
+                        
+                        <img class="img-poster1" src="images/haidm-poster-2.jpg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="button col-md-12">
+                    <button type="button" class="btn btn-success">READ MORE</button>
+                </div>       
+            </div>
+        </div>
+        </div>
+        <div class="footer"></div>
+
+        <script src="/js/navbar.js"></script>
 </body>
+
 </html>

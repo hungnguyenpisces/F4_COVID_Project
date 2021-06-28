@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+}
+body {
+  font-family: "Fira Sans" sans-serif !important ;
+  font-size: 14px;
+}
+.menu{
+    font-size: 15px;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+  height: 570px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+.container {
+  margin-top: 50px;
+}
+.category-items {
+  float: left;
+  padding-left: 40px;
+}
+.category {
+  padding-left: 30px;
+}
+.img-category:hover {
+  opacity: 75%;
+}
+.img-category a {
+  text-decoration: none;
+  color: white;
+}
+.img-category a:hover{
+    color: red;
+}
+.title-category1 {
+  position: absolute;
+  top: 60px;
+  left: 170px;
+  color: white;
+  font-weight: 500 bold;
+  font-size: 34px;
+}
+.title-category2 {
+  position: absolute;
+  top: 60px;
+  left: 530px;
+  color: white;
+  font-weight: 500 bold;
+  font-size: 34px;
+}
+.title-category3 {
+  position: absolute;
+  top: 65px;
+  left: 770px;
+  color: white;
+  font-weight: 500 bold;
+  font-size: 24px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+/* .content {
+  float: left;
+  width: calc(66, 67% - 15px);
+  background-color: white;
+  margin-right: 15px;
+} */
+
+.title-content {
+  margin-bottom: 70px;
+}
+.item {
+  margin-top: 30px;
+}
+.img-item {
+  width: 350px;
+  height: 280px;
+}
+.img-author{
+    border-radius: 100%;
+    width: 200px;
+    margin-top: -20px;
+    border: 2px solid seagreen;
+}
+.img-author:hover{
+    transform: scale(0.9);
+    transition: 0.75s;
+}
+.sidebar{
+    height: 350px;
+    background-color: seagreen;
+}
+.author{
+    color: white;
+    font-weight: 300;
+}
+.author hr{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.slogan{
+    font-size: 18px;
+    font-weight: 500 ;
+}
+.icon-social{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.icon-top{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.icon-top a{
+  color: black;
+}
+.button{
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.recent-box{
+  margin-top: -450px;
+}
+.recent-box a {
+  text-decoration: none !important;
+}
+.img-tips{
+  width: 760px;
+}
+.img-recent{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.poster1{
+  margin-top: -1000px;
+}
+.img-poster1{
+  width: 300px;
+  margin-bottom: 30px;
+}
