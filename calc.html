@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BNGW project F4-COVID Team</title>
+    <title>Health Calculator</title>
     <link rel="icon" href="https://albertoroura.com/wp-content/uploads/2014/05/html5_logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -16,7 +16,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/homeStyle.css" type="text/css" />
+    <link rel="stylesheet" href="/css/calc.css" type="text/css" />
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                         <li><a href="#"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
                         <li><a href="#"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
                         <li><a href="#"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
-                        <li><a href="#"><i class="fas fa-heartbeat"></i> Track Your Self</a></li>
+                        <li><a href="#"><i class="fas fa-heartbeat"></i> Track Your self</a></li>
                         <li>
                             <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
                             <ul id="hidden-menu" style="display: none;">
@@ -94,10 +94,68 @@
             </div>
         </div>
     </div>
-    <div class="main"></div>
-    <div class="footer"></div>
-
+    <div class="container">
+    <div class="session-calc">
+            <div class="calc-switch">
+                <div>
+                    <a id="calc-bmi" onclick="bmiCalc()" href="#">Body Mass Index (BMI)</a>
+                </div>
+                <div>
+                    <a id="calc-ibw" onclick="ibwCalc()" href="#">Ideal Body Weight</a>
+                </div>
+                <div>
+                    <a id="calc-dci" onclick="dciCalc()" href="#">Daily Calorie Intake</a>
+                </div>
+                <div>
+                    <a id="calc-cb" onclick="cbCalc()" href="#">Calories Burned</a>
+                </div>
+            </div>
+            <div class="calc-active">
+                <div id="bmi-calc">
+                    <div class="yz-widget" data-calculator-type="bmi" data-language="en" data-unit-system="metric"
+                        data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4"
+                        data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF"
+                        data-secondary-color="#FFC107">
+                        <span class="yz-copyright">Powered by
+                            <a href="https://www.yazio.com/en/bmi-calculator">YAZIO</a></span>
+                    </div>
+                    <script src="https://widget.yazio.com/calculator.js" async></script>
+                </div>
+                <div id="ibw-calc">
+                    <div class="yz-widget" data-calculator-type="ideal_weight" data-language="en" data-unit-system="metric"
+                        data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4"
+                        data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF"
+                        data-secondary-color="#FFC107">
+                        <span class="yz-copyright">Powered by
+                            <a href="https://www.yazio.com/en/ideal-weight-calculator">YAZIO</a></span>
+                    </div>
+                    <script src="https://widget.yazio.com/calculator.js" async></script>
+                </div>
+                <div id="dci-calc">
+                    <div class="yz-widget" data-calculator-type="daily_need" data-language="en" data-unit-system="metric"
+                        data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4"
+                        data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF"
+                        data-secondary-color="#FFC107">
+                        <span class="yz-copyright">Powered by
+                            <a href="https://www.yazio.com/en/calorie-intake-calculator">YAZIO</a></span>
+                    </div>
+                    <script src="https://widget.yazio.com/calculator.js" async></script>
+                </div>
+                <div id="cb-calc">
+                    <div class="yz-widget" data-calculator-type="calories_burned" data-language="en"
+                        data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121"
+                        data-primary-color="#03A9F4" data-alternate-background-color="#FFFFFF"
+                        data-alternate-text-color="#FFFFFF" data-secondary-color="#FFC107">
+                        <span class="yz-copyright">Powered by
+                            <a href="https://www.yazio.com/en/calories-burned-calculator">YAZIO</a></span>
+                    </div>
+                    <script src="https://widget.yazio.com/calculator.js" async></script>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/js/navbar.js"></script>
+    <script type="text/javascript" src="/js/calc.js"></script>
 </body>
 
 </html>
