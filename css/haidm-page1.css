@@ -7,10 +7,6 @@
     height: 100px;
     margin-top: -20px;
 }
-body {
-  font-family: "Fira Sans" sans-serif !important ;
-  font-size: 14px;
-}
 .menu{
     font-size: 15px;
 }
@@ -138,7 +134,7 @@ body {
   margin-bottom: 50px;
 }
 .recent-box{
-  margin-top: -450px;
+  margin-top: -400px;
 }
 .recent-box a {
   text-decoration: none !important;
@@ -152,7 +148,7 @@ body {
   margin-bottom: 10px;
 }
 .poster1{
-  margin-top: -1000px;
+  margin-top: -900px;
 }
 .img-poster1{
   width: 300px;

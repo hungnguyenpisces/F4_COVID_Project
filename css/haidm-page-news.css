@@ -1,0 +1,55 @@
+.img-jumbotron{
+    width: 100%;
+    height: 500px;
+    margin-top: -50px; 
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    border-radius: 100%;
+}
+.main{
+    margin-top: -70px;
+}
+.jumbotron{
+    background-color: white !important;
+    height: 550px;
+}
+.title-jumbotron{
+    margin-top: -300px;
+    color: white;
+}
+.content-covid{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    background-image: url("/images/haidm-covid-background1.png");
+   background-repeat: no-repeat;
+}
+.img-covid{
+    width: 250px;
+    margin-top: 150px;  
+}
+.content-covid h3{
+    color: white;
+}
+.container{
+    margin-bottom: 100px;
+}
+.img-beauty{
+    width: 450px;
+    margin-top: 50px;
+}
+.content-beauty{
+    display: flex;
+}
+.content-sex{
+   display: flex;
+   margin-top: 50px;
+}
+.img-sex{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
