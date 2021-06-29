@@ -42,6 +42,9 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
 }
+.logo img {
+  max-width: 100px;
+}
 .menu ul {
   position: relative;
   display: grid;

@@ -39,8 +39,11 @@
     height: 50px;
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
+  }
+  .logo img {
+    max-width: 100px;
   }
   .menu ul {
     position: relative;
