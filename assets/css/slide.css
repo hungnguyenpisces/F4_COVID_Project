@@ -1,0 +1,89 @@
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 100%;
+   position: relative;
+   margin: auto;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+ .slideback {
+     width: 100%;
+     height: 1000px;
+     background-size: cover;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: rgba(255, 255, 255, 0.6);
+   font-weight: bold;
+   font-size: 60px;
+   transition: 2s ease;
+   border-radius: 10px;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 10%; 
+ }
+ .prev {
+     left: 10%;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.2);
+ }
+/* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+ .text {
+   color: rgba(255, 255   , 255, 0.8);
+   font-size: 80px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 200px;
+   width: 100%;
+   text-align: center;
+ }
+
+
+/* thiết lập style  nút tròn điều khiển*/
+    .pointer_control {
+        position: relative;
+        margin-top: -50px;
+        z-index: 1;
+    }
+ .dot {
+   z-index: 1;
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 4px;
+   border: 2px solid rgba(255,255,255,0.8);
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color:rgba(255,255,255,0.8);
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 3s;
+   animation-name: fade;
+   animation-duration: 3s;
+ }
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
