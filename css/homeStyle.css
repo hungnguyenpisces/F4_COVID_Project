@@ -15,6 +15,7 @@
     max-width: 1234px;
     margin: 0 auto;
   }
+/* Begin header & navbar css */
   .header a {
     display: block;
     color: #333333;
@@ -108,4 +109,5 @@
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(20px) saturate(100%);
   }
+/* End header & navbar css */
   
