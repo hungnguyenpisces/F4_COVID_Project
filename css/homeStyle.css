@@ -16,6 +16,9 @@
     margin: 0 auto;
   }
 /* Begin header & navbar css */
+.header {
+  margin-bottom: 50px;
+}
   .header a {
     display: block;
     color: #333333;

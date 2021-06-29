@@ -16,6 +16,9 @@ body {
   margin: 0 auto;
 }
 /* Begin header & navbar css */
+.header {
+  margin-bottom: 50px;
+}
 .header a {
   display: block;
   color: #333333;
@@ -112,7 +115,6 @@ body {
 /* End header & navbar css */
 
 .session-calc {
-  margin-top: 100px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
