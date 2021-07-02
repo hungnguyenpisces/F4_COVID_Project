@@ -87,7 +87,7 @@ main {
     background-color: #e8e8e8;
     transform: translateX(100%);
     transition: linear 0.4s;
-    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .colse-list {
