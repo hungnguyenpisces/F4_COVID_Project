@@ -17,215 +17,287 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/assets/font/fontawesome-free-5.15.3/css/all.css">
     <link rel="stylesheet" href="/assets/font/uicons-regular-rounded/css/uicons-regular-rounded.css">
-    <link rel="stylesheet" href="assets/css/menu-gym-yoga.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="/assets/css/menu-gym-yoga-dance.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
     <div class="main">
         <header class="header">
+            <div class="grid wide">
+                <div class="row" style="justify-content:space-between">
+                    <div class="col l-3 m-6 c-6">
+                        <div class="header-logo">
+                            <a href="#">
+                                <img src="/assets/image/gym-logo.png" alt="" class="header-logo__img">
+                                <p class="header-logo__heading">F4 FITNESS</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-9 m-1 c-1">
+                        <input type="checkbox" name="" hidden id="checkbox-on-mobile-tablet"
+                            class="checkbox-on-mobile-tablet">
+                        <label for="checkbox-on-mobile-tablet" class="carotery-mobile-tablet">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <label for="checkbox-on-mobile-tablet" class="overlay"></label>
 
-            <nav class="nav">
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="/assets/image/gym-logo.png" alt="" class="header-logo__img">
-                        <p class="header-logo__heading">F4 FITNESS</p>
-                    </a>
+                        <ul class="header-list-mobi-tab">
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">MENU</a>
+                            </li>
+                            <label for="checkbox-on-mobile-tablet" class="colse-list">
+                                <span>BACK</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </label>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">HOME</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">GYM</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">YOGA</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">AROBIC</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">THỰC PHẨM BỔ SUNG</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <a href="#" class="header-item__link-mobi-tab">LIÊN HỆ</a>
+                            </li>
+                            <li class="header-item-mobi-tab">
+                                <i class="fas fa-search header-item__icon-mobi-tab "></i>
+                            </li>
+                        </ul>
+                        <ul class="header-list hide-on-mobile-tablet">
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">HOME</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">GYM</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">YOGA</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">AROBIC</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">THỰC PHẨM BỔ SUNG</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#" class="header-item__link">LIÊN HỆ</a>
+                            </li>
+                            <li class="header-item">
+                                <i class="fas fa-search header-item__icon "></i>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-                <ul class="header-list">
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">HOME</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">GYM</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">YOGA</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">AROBIC</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">THỰC PHẨM BỔ SUNG</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#" class="header-item__link">LIÊN HỆ</a>
-                    </li>
-                    <li class="header-item">
-                        <i class="fas fa-search header-item__icon "></i>
-                    </li>
-                    </li>
-                </ul>
-            </nav>
+            </div>
         </header>
         <section class="section">
             <div class="banner-top" style="background-image: url(/assets/image/banner-top.jpg);">
-                <h1 class="banner-top__heading">F4 FITNESS</h1>
-                <p class="banner-top__description">"Các bài tập tại đây sẽ giúp cho bạn luyện tập toàn bộ các
-                    nhóm cơ trên cơ thể, <br> giúp bạn phát triển toàn diện cơ bắp và có được body dẻo dai, một sức khỏe
-                    tốt.<br> Đừng
-                    vội nản và hãy kiên trì tập luyện nhé. <br>Thành công sẽ đến với những người kiên trì, cố lên nào!"
-                </p>
-                
+                <div class="grid wide">
+                    <div class="row">
+                        <h1 class="banner-top__heading">F4 FITNESS</h1>
+                        <p class="banner-top__description">"Các bài tập tại đây sẽ giúp cho bạn luyện tập toàn bộ các
+                            nhóm cơ trên cơ thể, <br> giúp bạn phát triển toàn diện cơ bắp và có được body dẻo dai, một
+                            sức khỏe
+                            tốt.<br> Đừng
+                            vội nản và hãy kiên trì tập luyện nhé. <br>Thành công sẽ đến với những người kiên trì, cố
+                            lên nào!"
+                        </p>
+                    </div>
+                </div>
+                <div class="list-category grid wide">
+                    <div class="row">
+                        <div class="item-category l-4 m-10 c-12 m-o-1 l-o">
+                            <img src="/assets/image/gym-banner.jpg" alt="" class="item-category__img">
+                            <p class="item-category__title">GYM FITNESS</p>
+                            <p class="item-category__description">A better way to track workouts</p>
+                            <div class="item-category__view">
+                                <a href="#" class="item-category__view-more">
+                                    <p>View More</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-category l-4 m-10 c-12 m-o-1 l-o">
+                            <img src="/assets/image/yoga1.jpg" alt="" class="item-category__img">
+                            <p class="item-category__title">YOGA</p>
+                            <p class="item-category__description">A better way to track workouts</p>
+                            <div class="item-category__view">
+                                <a href="#" class="item-category__view-more">
+                                    <p>View More</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item-category l-4 m-10 c-12 m-o-1 l-o">
+                            <img src="/assets/image/arobic.jpg" alt="" class="item-category__img">
+                            <p class="item-category__title">AROBIC</p>
+                            <p class="item-category__description">A better way to track workouts</p>
+                            <div class="item-category__view">
+                                <a href="#" class="item-category__view-more">
+                                    <p>View More</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="list-category">
-                <li class="item-category">
-                    <img src="/assets/image/gym-banner.jpg" alt="" class="item-category__img">
-                    <p class="item-category__title">GYM FITNESS</p>
-                    <p class="item-category__description">A better way to track workouts</p>
-                    <div class="item-category__view">
-                        <a href="#" class="item-category__view-more">
-                            <p>View More</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="item-category">
-                    <img src="/assets/image/yoga1.jpg" alt="" class="item-category__img">
-                    <p class="item-category__title">YOGA</p>
-                    <p class="item-category__description">A better way to track workouts</p>
-                    <div class="item-category__view">
-                        <a href="#" class="item-category__view-more">
-                            <p>View More</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="item-category">
-                    <img src="/assets/image/arobic.jpg" alt="" class="item-category__img">
-                    <p class="item-category__title">AROBIC</p>
-                    <p class="item-category__description">A better way to track workouts</p>
-                    <div class="item-category__view">
-                        <a href="#" class="item-category__view-more">
-                            <p>View More</p>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+    </div>
+    </div>
 
 
-            <div class="gymer">
+
+    <div class="gymer">
+        <div class="grid wide">
+            <div class="row">
                 <h2 class="gymer-heading">GYM FITNESS</h2>
                 <div class="gymer-line"></div>
-                <div class="gymer-main">
-                    <div class="gymer-post-info">
-                        <div class="gymer-post-img">
-                            <a href="#" class="gymer-post-info__link"><img src="/assets/image/bai-tap-lung-cho-nu-1.jpg"
-                                    alt="" class="gymer-post-info__img"></a>
-                        </div>
-                        <a href="#" class="gymer-post-info__heading">
-                            <h3>8 bài tập lưng cho nữ ngay tại nhà để có thân trên săn chắc</h3>
-                        </a>
-                        <p class="gymer-post-info__description">Thực hiện các bài tập lưng cho nữ giúp chị em sở hữu một
-                            thân trên khỏe mạnh (cụ thể là
-                            phần cơ lưng) và là chìa khóa để có một cơ thể cân đối, gợi cảm và còn là giúp chống lại
-                            những cơn đau. chấn thương và một tư thế không tốt trong nhiều năm tới.</p>
+            </div>
+        </div>
+        <div class="gymer-main grid wide">
+            <div class="row">
+                <div class="gymer-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="gymer-post-img">
+                        <a href="#" class="gymer-post-info__link"><img src="/assets/image/bai-tap-lung-cho-nu-1.jpg"
+                                alt="" class="gymer-post-info__img"></a>
                     </div>
-                    <div class="gymer-post-info">
-                        <div class="gymer-post-img">
-                            <a href="#" class="gymer-post-info__link"><img src="/assets/image/bai-tap-vai-1.jpg" alt=""
-                                    class="gymer-post-info__img"></a>
-                        </div>
-                        <a href="#" class="gymer-post-info__heading">
-                            <h3>5 bài tập phát triển cơ vai hiếm gymer nào biết</h3>
-                        </a>
-                        <p class="gymer-post-info__description">Cho dù bạn đang là một gymer sở hữu bờ vai to dày hay
-                            đơn giản hơn là bạn đang có gắng
-                            duy trì khi đang có vài vấn đề không tốt ở vai thì 5 bài tập phát triển cơ vai này cũng rất
-                            phù
-                            hợp với bạn.</p>
-                    </div>
-                    <div class="gymer-post-info">
-                        <div class="gymer-post-img">
-                            <a href="#" class="gymer-post-info__link"><img
-                                    src="/assets/image/Single-leg-Straight-leg-Deadlift.jpg" alt=""
-                                    class="gymer-post-info__img"></a>
-                        </div>
-                        <a href="#" class="gymer-post-info__heading">
-                            <h3>7 Bài tập cho cơ lõi (core) siêu khỏe với tạ Dumbbell</h3>
-                        </a>
-                        <p class="gymer-post-info__description">Thay đổi cách tập cơ lõi (core) của bạn với những động
-                            tác kết hợp. Không có gì ngạc nhiên
-                            khi việc tăng cường cơ lõi của bạn là một điều tuyệt vời.
-                        </p>
-                    </div>
-                    <div class="gymer-post-info">
-                        <div class="gymer-post-img">
-                            <a href="#" class="gymer-post-info__link"><img
-                                    src="/assets/image/bai-tap-than-duoi-voi-miniband-1.png" alt=""
-                                    class="gymer-post-info__img"></a>
-                        </div>
-                        <a href="#" class="gymer-post-info__heading">
-                            <h3>14 bài tập thân dưới với dây kháng lực miniband dễ dàng tập ở mọi nơi</h3>
-                        </a>
-                        <p class="gymer-post-info__description">Hôm nay Thể Hình
-                            Channel sẽ giới thiệu đến các bạn 15 bài tập thân dưới với dây kháng lực miniband để bạn có
-                            thể tập tại nhà.
-                        </p>
-                    </div>
+                    <a href="#" class="gymer-post-info__heading">
+                        <h3>8 bài tập lưng cho nữ ngay tại nhà để có thân trên săn chắc</h3>
+                    </a>
+                    <p class="gymer-post-info__description">Thực hiện các bài tập lưng cho nữ giúp chị em sở hữu một
+                        thân trên khỏe mạnh (cụ thể là
+                        phần cơ lưng) và là chìa khóa để có một cơ thể cân đối, gợi cảm và còn là giúp chống lại
+                        những cơn đau. chấn thương và một tư thế không tốt trong nhiều năm tới.</p>
                 </div>
-                <div class="gymer-list-page">
-                    <div class="gymer-item-page">
-                        <i class="fi-rr-angle-left gymer-item-page__icon"></i>
+                <div class="gymer-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="gymer-post-img">
+                        <a href="#" class="gymer-post-info__link"><img src="/assets/image/bai-tap-vai-1.jpg" alt=""
+                                class="gymer-post-info__img"></a>
                     </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link gymer-item-page__link-active">1</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">2</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">3</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">4</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">5</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <i class="fi-rr-angle-right gymer-item-page__icon"></i>
-                    </div>
+                    <a href="#" class="gymer-post-info__heading">
+                        <h3>5 bài tập phát triển cơ vai hiếm gymer nào biết</h3>
+                    </a>
+                    <p class="gymer-post-info__description">Cho dù bạn đang là một gymer sở hữu bờ vai to dày hay
+                        đơn giản hơn là bạn đang có gắng
+                        duy trì khi đang có vài vấn đề không tốt ở vai thì 5 bài tập phát triển cơ vai này cũng rất
+                        phù
+                        hợp với bạn.</p>
                 </div>
-                <div class="gymmer-footer" style="background-image: url(/assets/image/bg_people.jpg);">
-                    <img src="/assets/image/down_white_line_big.webp" alt="" width="100%">
-                    <img src="/assets/image/gymmer-footer3.webp" alt="" class="gymmer-footer-img2">
-                    <img src="/assets/image/gymer-footer1.webp" alt="" class="gymmer-footer-img1">
-                    <img src="/assets/image/gummer-footer2.webp" alt="" class="gymmer-footer-img3">
-
+                <div class="gymer-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="gymer-post-img">
+                        <a href="#" class="gymer-post-info__link"><img
+                                src="/assets/image/Single-leg-Straight-leg-Deadlift.jpg" alt=""
+                                class="gymer-post-info__img"></a>
+                    </div>
+                    <a href="#" class="gymer-post-info__heading">
+                        <h3>7 Bài tập cho cơ lõi (core) siêu khỏe với tạ Dumbbell</h3>
+                    </a>
+                    <p class="gymer-post-info__description">Thay đổi cách tập cơ lõi (core) của bạn với những động
+                        tác kết hợp. Không có gì ngạc nhiên
+                        khi việc tăng cường cơ lõi của bạn là một điều tuyệt vời.
+                    </p>
+                </div>
+                <div class="gymer-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="gymer-post-img">
+                        <a href="#" class="gymer-post-info__link"><img
+                                src="/assets/image/bai-tap-than-duoi-voi-miniband-1.png" alt=""
+                                class="gymer-post-info__img"></a>
+                    </div>
+                    <a href="#" class="gymer-post-info__heading">
+                        <h3>14 bài tập thân dưới với dây kháng lực miniband dễ dàng tập ở mọi nơi</h3>
+                    </a>
+                    <p class="gymer-post-info__description">Hôm nay Thể Hình
+                        Channel sẽ giới thiệu đến các bạn 15 bài tập thân dưới với dây kháng lực miniband để bạn có
+                        thể tập tại nhà.
+                    </p>
                 </div>
             </div>
+        </div>
+        <div class="gymer-list-page">
+            <div class="gymer-item-page">
+                <i class="fi-rr-angle-left gymer-item-page__icon"></i>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link gymer-item-page__link-active">1</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">2</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">3</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">4</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">5</a>
+            </div>
+            <div class="gymer-item-page">
+                <i class="fi-rr-angle-right gymer-item-page__icon"></i>
+            </div>
+        </div>
+        <div class="gymmer-footer" style="background-image: url(/assets/image/bg_people.jpg);">
+            <img src="/assets/image/down_white_line_big.webp" alt="" width="100%">
+            <img src="/assets/image/gymmer-footer3.webp" alt="" class="gymmer-footer-img2">
+            <img src="/assets/image/gymer-footer1.webp" alt="" class="gymmer-footer-img1">
+            <img src="/assets/image/gummer-footer2.webp" alt="" class="gymmer-footer-img3">
 
-            <div class="yoga">
+        </div>
+    </div>
+
+    <div class="yoga">
+        <div class="grid wide">
+            <div class="row">
                 <h2 class="yoga-heading">YOGA</h2>
                 <div class="yoga-line"></div>
-
-                <div class="yoga-main">
+            </div>
+        </div>
+        <div class="yoga-main grid wide">
+            <div class="row">
+                <div class=" col l-4 m-8 c-10 l-o m-o-2 c-o-1">
                     <div class="yoga-post-info">
                         <a href="#" class="yoga-post-info__img-link">
-                                <img src="/assets/image/tap-yoga-mua-he-1.jpg" alt="" class="yoga-post-info__img">
+                            <img src="/assets/image/tap-yoga-mua-he-1.jpg" alt="" class="yoga-post-info__img">
                         </a>
 
                         <a href="#" class="yoga-post-heading">
                             <h3>10 cách để cơ thể giữ nước cho luyện tập yoga vào mùa hè</h3>
                         </a>
-
-                        <p class="yoga-post-description">Mùa hè đang đến gần, và đối với thiền sinh, các bạn hãy nghĩ đến việc luyện tập yoga ngoài
-                            trời. Khi thời tiết thuận lợi, luyện tập yoga vào mùa hè bên ngoài có thể mang lại cảm giác...</p>
+                        <p class="yoga-post-description">Mùa hè đang đến gần, và đối với thiền sinh, các bạn hãy nghĩ
+                            đến việc
+                            luyện tập yoga ngoài
+                            trời. Khi thời tiết thuận lợi, luyện tập yoga vào mùa hè bên ngoài có thể mang lại cảm
+                            giác...</p>
                     </div>
+                </div>
+                <div class="col l-4 m-8 c-10 l-o m-o-2 c-o-1">
                     <div class="yoga-post-info">
                         <a href="#" class="yoga-post-info__img-link">
-                                <img src="/assets/image/cobra-pose-1.jpg" alt="" class="yoga-post-info__img">
+                            <img src="/assets/image/cobra-pose-1.jpg" alt="" class="yoga-post-info__img">
                         </a>
 
                         <a href="#" class="yoga-post-heading">
                             <h3>Yoga hằng ngày: 10 tư thế Yoga bạn nên thực hành mỗi ngày</h3>
                         </a>
 
-                        <p class="yoga-post-description">Đôi khi, bạn không thể tập yoga cả tiếng đồng hồ, nhưng nếu tập yoga hằng ngày bạn sẽ
+                        <p class="yoga-post-description">Đôi khi, bạn không thể tập yoga cả tiếng đồng hồ, nhưng nếu tập
+                            yoga
+                            hằng ngày bạn sẽ
                             có thể chỉ cần từ 10 đến 15 phút mỗi lần tập để kéo giãn lưng, đùi sau và hông...</p>
                     </div>
+                </div>
+                <div class=" col l-4 m-8 c-10 l-o m-o-2 c-o-1">
                     <div class="yoga-post-info">
                         <a href="#" class="yoga-post-info__img-link">
-                                <img src="/assets/image/tap-yoga-tai-nha.jpg" alt="" class="yoga-post-info__img">
+                            <img src="/assets/image/tap-yoga-tai-nha.jpg" alt="" class="yoga-post-info__img">
                         </a>
 
                         <a href="#" class="yoga-post-heading">
@@ -233,106 +305,127 @@
                                 đầu!</h3>
                         </a>
 
-                        <p class="yoga-post-description">Yoga là bộ môn thể dục mang lại cho người tập rất nhiều lợi ích và hiện nó đang thu hút được
+                        <p class="yoga-post-description">Yoga là bộ môn thể dục mang lại cho người tập rất nhiều lợi ích
+                            và hiện
+                            nó đang thu hút được
                             rất nhiều người quan tâm, tham gia tập luyện. Tuy nhiên, không phải ai cũng có điều kiện để
                             đến phòng tập...</p>
                     </div>
-
-                    
                 </div>
-                <div class="yoga-list-post">
-                    <div class="yoga-item-post yoga-item-post-active"></div>       
-                    <div class="yoga-item-post"></div>
-                    <div class="yoga-item-post"></div>
-                </div>
-                <div class="yoga-footer" style="background-image: url(/assets/image/yoga-background.png);">
-                    <p class="yoga-footer-desctiption">
-                        "Yoga mang bạn hòa mình vào thiên nhiên và dạy cho bạn cách tò mò, cách hào hứng về thế giới tâm hồn." <br>
-                        - Debasish
-                    </p>
-                </div>  
             </div>
+        </div>
+        <div class="yoga-list-post grid wide">
+            <div class="row" style="margin-top: 40px;">
+                <div class="yoga-item-post yoga-item-post-active"></div>
+                <div class="yoga-item-post"></div>
+                <div class="yoga-item-post"></div>
+            </div>
+        </div>
+        <div class="yoga-footer" style="background-image: url(/assets/image/yoga-background.png);">
+            <p class="yoga-footer-desctiption">
+                "Yoga mang bạn hòa mình vào thiên nhiên và dạy cho bạn cách tò mò, cách hào hứng về thế giới tâm hồn."
+                <br>
+                - Debasish
+            </p>
+        </div>
+    </div>
 
-            <div class="arobic">
+    <div class="arobic">
+        <div class="grid wide">
+            <div class="row">
                 <h2 class="arobic-heading">AROBIC</h2>
                 <div class="arobic-line"></div>
-
-                <div class="arobic-main">
-                    <div class="arobic-post-info">
-                        <div class="arobic-post-img">
-                            <a href="#" class="arobic-post-info__link"><img src="/assets/image/luu-y-khi-tap-aerobic.jpeg"
-                                    alt="" class="arobic-post-info__img"></a>
-                        </div>
-                        <a href="#" class="arobic-post-info__heading">
-                            <h3>Các bài tập aerobic cho người mới bắt đầu</h3>
-                        </a>
-                        <p class="arobic-post-info__description">Bạn muốn bắt đầu tập aerobic nhưng không biết bắt đầu từ đâu. Không sao cả hãy để F4 FITNESS giúp cho bạn bằng cách bài tập aerobic cho người mới bắt đầu vừa đơn giản vừa hiệu quả....</p>
-                        <div class="arobic-post-info_line-bot"></div>
-                    </div>
-                    <div class="arobic-post-info">
-                        <div class="arobic-post-img">
-                            <a href="#" class="arobic-post-info__link"><img src="/assets/image/Bai-tap-Aerobic-giam-mo-bung.jpg"
-                                    alt="" class="arobic-post-info__img"></a>
-                        </div>
-                        <a href="#" class="arobic-post-info__heading">
-                            <h3>Những bài Aerobic nào giảm mỡ bụng hiệu quả?</h3>
-                        </a>
-                        <p class="arobic-post-info__description">Các bài tập Aerobic sẽ tác động trực tiếp vào bộ phận trên cơ thể cực mạnh nhằm đốt cháy mỡ thừa và giải phóng độc tố ra khỏi cơ thể qua đường mồ hôi....</p>
-                        <div class="arobic-post-info_line-bot"></div>
-                    </div>
-                    <div class="arobic-post-info">
-                        <div class="arobic-post-img">
-                            <a href="#" class="arobic-post-info__link"><img src="/assets/image/aerobic.jpg"
-                                    alt="" class="arobic-post-info__img"></a>
-                        </div>
-                        <a href="#" class="arobic-post-info__heading">
-                            <h3>6 bài tập Aerobic eo thon, dáng khỏe dễ thực hiện ngay tại nhà</h3>
-                        </a>
-                        <p class="arobic-post-info__description">Tập Aerobic phải tập trong khuôn khổ, không tùy tiện, phải tuân thủ các nguyên tắc của Aerobic thì việc giảm cân mới nhanh chóng đạt hiệu quả....</p>
-                        <div class="arobic-post-info_line-bot"></div>
-                    </div>
-                    <div class="arobic-post-info">
-                        <div class="arobic-post-img">
-                            <a href="#" class="arobic-post-info__link"><img src="/assets/image/aerobic1.jpg"
-                                    alt="" class="arobic-post-info__img"></a>
-                        </div>
-                        <a href="#" class="arobic-post-info__heading">
-                            <h3>5 lỗi cơ bản này khi tập Aerobic tại nhà</h3>
-                        </a>
-                        <p class="arobic-post-info__description">Tập aerobic giảm cân tại nhà đang là xu thế mới dành cho các chị em phụ nữ bận rộn. Nổi tiếng với hiệu quả giảm cân cấp tốc rõ rệt, aerobic ngày càng được nhiều bạn nữ áp dụng hơn...</p>
-                        <div class="arobic-post-info_line-bot"></div>
-                    </div>
-                </div>
-                <div class="gymer-list-page">
-                    <div class="gymer-item-page">
-                        <i class="fi-rr-angle-left gymer-item-page__icon"></i>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link gymer-item-page__link-active">1</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">2</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">3</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">4</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <a href="#" class="gymer-item-page__link">5</a>
-                    </div>
-                    <div class="gymer-item-page">
-                        <i class="fi-rr-angle-right gymer-item-page__icon"></i>
-                    </div>
-                </div>
-
-                <div class="arobic-footer" style="background-image: url(/assets/image/aerobic-footer.jpg);">
-                    <h1>F4 FITNESS</h1>
-                    <p>"Cho cuộc sống tươi trẻ, năng động hơn."</p>
-                </div>
             </div>
-        </section>
+        </div>
+        <div class="arobic-main grid wide">
+            <div class="row">
+                <div class="arobic-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="arobic-post-img">
+                        <a href="#" class="arobic-post-info__link"><img src="/assets/image/luu-y-khi-tap-aerobic.jpeg"
+                                alt="" class="arobic-post-info__img"></a>
+                    </div>
+                    <a href="#" class="arobic-post-info__heading">
+                        <h3>Các bài tập aerobic cho người mới bắt đầu</h3>
+                    </a>
+                    <div class="arobic-post-info_line"></div>
+                    <p class="arobic-post-info__description">Bạn muốn bắt đầu tập aerobic nhưng không biết bắt đầu từ đâu.
+                        Không sao cả hãy để F4 FITNESS giúp cho bạn bằng cách bài tập aerobic cho người mới bắt đầu vừa đơn
+                        giản vừa hiệu quả....</p>
+                    <div class="arobic-post-info_line-bot"></div>
+                </div>
+                <div class="arobic-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="arobic-post-img">
+                        <a href="#" class="arobic-post-info__link"><img src="/assets/image/Bai-tap-Aerobic-giam-mo-bung.jpg"
+                                alt="" class="arobic-post-info__img"></a>
+                    </div>
+                    <a href="#" class="arobic-post-info__heading">
+                        <h3>Những bài Aerobic nào giảm mỡ bụng hiệu quả?</h3>
+                    </a>
+                    <div class="arobic-post-info_line"></div>
+                    <p class="arobic-post-info__description">Các bài tập Aerobic sẽ tác động trực tiếp vào bộ phận trên cơ
+                        thể cực mạnh nhằm đốt cháy mỡ thừa và giải phóng độc tố ra khỏi cơ thể qua đường mồ hôi....</p>
+                    <div class="arobic-post-info_line-bot"></div>
+                </div>
+                <div class="arobic-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="arobic-post-img">
+                        <a href="#" class="arobic-post-info__link"><img src="/assets/image/aerobic.jpg" alt=""
+                                class="arobic-post-info__img"></a>
+                    </div>
+                    <a href="#" class="arobic-post-info__heading">
+                        <h3>6 bài tập Aerobic eo thon, dáng khỏe dễ thực hiện ngay tại nhà</h3>
+                    </a>
+                    <div class="arobic-post-info_line"></div>
+                    <p class="arobic-post-info__description">Tập Aerobic phải tập trong khuôn khổ, không tùy tiện, phải tuân
+                        thủ các nguyên tắc của Aerobic thì việc giảm cân mới nhanh chóng đạt hiệu quả....</p>
+                    <div class="arobic-post-info_line-bot"></div>
+                </div>
+                <div class="arobic-post-info col l-3 m-6 c-10 l-o m-o c-o-1">
+                    <div class="arobic-post-img">
+                        <a href="#" class="arobic-post-info__link"><img src="/assets/image/aerobic1.jpg" alt=""
+                                class="arobic-post-info__img"></a>
+                    </div>
+                    <a href="#" class="arobic-post-info__heading">
+                        <h3>5 lỗi cơ bản này khi tập Aerobic tại nhà</h3>
+                    </a>
+                    <div class="arobic-post-info_line"></div>
+                    <p class="arobic-post-info__description">Tập aerobic giảm cân tại nhà đang là xu thế mới dành cho các
+                        chị em phụ nữ bận rộn. Nổi tiếng với hiệu quả giảm cân cấp tốc rõ rệt, aerobic ngày càng được nhiều
+                        bạn nữ áp dụng hơn...</p>
+                    <div class="arobic-post-info_line-bot"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="gymer-list-page">
+            <div class="gymer-item-page">
+                <i class="fi-rr-angle-left gymer-item-page__icon"></i>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link gymer-item-page__link-active">1</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">2</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">3</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">4</a>
+            </div>
+            <div class="gymer-item-page">
+                <a href="#" class="gymer-item-page__link">5</a>
+            </div>
+            <div class="gymer-item-page">
+                <i class="fi-rr-angle-right gymer-item-page__icon"></i>
+            </div>
+        </div>
+
+        <div class="arobic-footer" style="background-image: url(/assets/image/aerobic-footer.jpg);">
+            <h1>F4 FITNESS</h1>
+            <p>"Cho cuộc sống tươi trẻ, năng động hơn."</p>
+        </div>
+    </div>
+    </section>
     </div>
 </body>
 
