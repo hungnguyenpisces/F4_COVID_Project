@@ -1,1 +1,1 @@
-<?php include("comingsoon.html");
+<?php include("home.html");
