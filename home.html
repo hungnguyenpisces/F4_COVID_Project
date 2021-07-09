@@ -1,79 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <title>BNGW project F4-COVID Team</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="https://albertoroura.com/wp-content/uploads/2014/05/html5_logo.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/css/grid.css" />
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
 
-    body,
-    html {
-      height: 100%;
-      background-image: url("/images/comingsoon.jpg");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      font-family: "Fira Sans", sans-serif;
-    }
+  <head>
+    <title>BNGW project F4-COVID Team</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://albertoroura.com/wp-content/uploads/2014/05/html5_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet" />
 
-    #coming-soon {
-      width: 100%;
-      height: 100%;
-      padding-top: 33.33333%;
-      background-color: rgba(0, 0, 0, 0.5);
-      overflow: hidden;
-    }
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-    .coming-soon-text,
-    .coming-soon-text h1,
-    .coming-soon-text h3 {
-      color: #fff;
-      text-align: center;
-      text-shadow: 0 0 10px #000;
-      font-weight: 300;
-    }
+      body,
+      html {
+        height: 100%;
+        background-image: url("/images/comingsoon.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: "Fira Sans", sans-serif;
+      }
 
-    .coming-soon-text h1 {
-      font-size: 50px;
-    }
+      #coming-soon {
+        width: 100%;
+        height: 100%;
+        padding-top: 33.33333%;
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        z-index: -1000;
+      }
 
-    .coming-soon-text h3 {
-      font-size: 25px;
-    }
+      .coming-soon-text,
+      .coming-soon-text h1,
+      .coming-soon-text h3 {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 0 10px #000;
+        font-weight: 300;
+      }
 
-    .dev-team {
-      color: #fff;
-      position: absolute;
-      left: 10px;
-      bottom: 10px;
-      font-weight: 200;
-    }
+      .coming-soon-text h1 {
+        font-size: 50px;
+      }
 
-    .dev-team a {
-      color: #fff;
-    }
-  </style>
+      .coming-soon-text h3 {
+        font-size: 25px;
+      }
+
+      .dev-team {
+        color: #fff;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        font-weight: 200;
+      }
+
+      .dev-team a {
+        color: #fff;
+      }
+    </style>
+  </head>
 
   <body>
 
-
-
-
-
-
-
+    <!-- Begin header -->
+    <div class="modal fade" id="header-modal"></div>
+    <div id="header">
+      <script src="/js/headerModul.js"></script>
+    </div>
+    <!-- End header -->
 
     <div id="coming-soon">
       <div class="grid wide">
@@ -91,11 +95,17 @@
       </div>
     </div>
 
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+      // Begin function load css for header require bootstrap & jQuery
+      $('head').append('<link rel="stylesheet" type="text/css" href="/css/grid.css">',
+        '<link rel="stylesheet" type="text/css" href="/css/header.css">');
+      // End function load css for header
+
+    </script>
   </body>
 
 </html>
