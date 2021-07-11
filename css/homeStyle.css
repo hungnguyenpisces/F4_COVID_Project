@@ -6,7 +6,7 @@
   body {
     /* margin: 25px 0; */
     /* margin: 25px 0; */
-    font-family: "Fira Sans";
+    font-family: "Fira Sans" !important ;
     font-size: 1em;
     /* color: #ffffff; */
     /* background-color: #d9ef81; */
@@ -38,6 +38,7 @@
     /* background-color: rgba(0, 0, 0, 0.05); */
     /* box-shadow: rgb(31 47 71 / 25%) 0px 20px 40px, rgb(0 0 0 / 10%) 0px 1px 5px,
       rgb(255 255 255 / 40%) 0px 0px 0px 0.5px inset; */
+      text-decoration: none;
   }
   .nav {
     height: 50px;
