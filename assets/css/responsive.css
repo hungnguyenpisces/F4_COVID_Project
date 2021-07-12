@@ -37,7 +37,12 @@
     }
 
     .yoga {
-        margin-top: 50px;
+        margin-top: -50px;
+        padding-top: 120px;
+    }
+    .arobic {
+        margin-top: -50px;
+        padding-top: 120px;
     }
 }
 
@@ -56,7 +61,8 @@
     }
     
     .gymer {
-        margin-top: 750px;
+        margin-top: 600px;
+        padding-top: 130px;
     }
 
     .gymmer-footer {
@@ -154,7 +160,8 @@
     }
 
     .gymer {
-        margin-top: 780px;
+        margin-top: 600px;
+        padding-top: 130px;
     }
 
     .gymer-heading {
@@ -216,7 +223,7 @@
     .yoga-footer-desctiption {
         display: block;
         position: absolute;
-        top: 2  0%;
+        top: 20%;
         left: 0;
         padding: 0 10%;
         width: 100%;

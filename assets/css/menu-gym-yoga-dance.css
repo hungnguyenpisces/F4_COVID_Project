@@ -1,4 +1,4 @@
-* {
+*    {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -8,6 +8,7 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -303,7 +304,8 @@ main {
 
 .gymer {
     width: 100%;
-    margin-top: 180px;
+    margin-top: 0px;
+    padding-top: 160px;
 }
 
 .gymer-line {
@@ -465,7 +467,8 @@ main {
 }
 
 .yoga {
-    margin-top: 100px;
+    margin-top: -60px;
+    padding-top: 160px;
 }
 
 
@@ -608,7 +611,8 @@ main {
 }
 
 .arobic {
-    margin-top: 100px;
+    margin-top: -60px;
+    padding-top: 160px;
 }
 
 .arobic-line {
