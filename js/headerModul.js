@@ -16,16 +16,15 @@ function header() {
             <ul>
               <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
-              <li><a href="/haidm-page-news.html"><i class="fas fa-seedling fa-lg"></i> <span
+              <li><a href="/menu-healthy-eating.html"><i class="fas fa-seedling fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
               <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
                     class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
-              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> <span class="hideOnMobile hideOnTablet">Body
-                    Boots</span></a></li>
+              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> <span class="hideOnMobile hideOnTablet">Health Calculators</span></a></li>
               <li>
                 <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
                 <ul id="hidden-menu" style="display: none;">
-                  <li><a href="/calc.html">Health Calculator</a></li>
+                  <li><a href="/userDashboard.html">User Dashboard</a></li>
                   <li><a href="##">Quick link 2</a></li>
                   <li><a href="##">Quick link 3</a></li>
                   <li><a href="##">Quick link 4</a></li>
