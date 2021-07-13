@@ -31,6 +31,9 @@ function loadCss() {
           <h3><i class="fas fa-link"></i> <b>LINKS</b></h3>
           <ul>
             <li>
+              <a href="/home.html"><i class="fas fa-home fa-lg"></i> Home</a>
+            </li>
+            <li>
               <a data-toggle="modal" data-target="#header-modal" href="#"><i class="fas fa-address-card fa-lg"></i> Sign
                 In / Sign Up</a>
             </li>
@@ -38,13 +41,13 @@ function loadCss() {
               <a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
             </li>
             <li>
-              <a href="/haidm-page-news.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
+              <a href="/mngancountdown.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
             </li>
             <li>
               <a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a>
             </li>
             <li>
-              <a href="/calc.html"><i class="fas fa-heartbeat"></i> Body Boots</a>
+              <a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a>
             </li>
           </ul>
         </div>
