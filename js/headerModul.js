@@ -16,7 +16,7 @@ function header() {
             <ul>
               <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
-              <li><a href="/menu-healthy-eating.html"><i class="fas fa-seedling fa-lg"></i> <span
+              <li><a href="/mngancountdown.html"><i class="fas fa-seedling fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
               <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
                     class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
