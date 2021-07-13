@@ -1,3 +1,10 @@
+function loadCss() {
+  $("head").append(
+    '<link rel="stylesheet" type="text/css" href="/css/grid.css">',
+    '<link rel="stylesheet" type="text/css" href="/css/header.css">',
+  );
+}
+loadCss();
 function header() {
     var ct = `
     <div class="grid wide">
@@ -27,7 +34,7 @@ function header() {
               <li>
                 <a id="search-icon" href="#"><i class="fas fa-search fa-lg"></i></a>
                 <div id="search-form" style="display: none;">
-                  <input type="text" name="search" placeholder="Search" id="" class="form-control" />
+                  <input type="text" name="search" placeholder="Search" class="form-control" />
                 </div>
               </li>
               <li>
@@ -131,3 +138,4 @@ navbar();
     document.getElementById("header-modal").innerHTML = md;
  }
  headerModal();
+ 
