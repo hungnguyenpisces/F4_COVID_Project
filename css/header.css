@@ -38,6 +38,7 @@
 	padding: 10px;
 	background: #fff;
 	text-align: center;
+	border: 1px solid #ccc;
 }
 #search-form {
 	z-index: 999;
