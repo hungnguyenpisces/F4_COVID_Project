@@ -1,0 +1,30 @@
+.img-category-tips{
+    margin-top: 180px;
+    width: 225px;
+    height: 225px;
+    border: 7px solid black;
+    margin-right: 100px;
+}
+.img-category-news{
+    margin-top: 180px;
+    width: 225px;
+    height: 225px;
+}
+.img-category-thuoc{
+    
+    margin-left: 550px;
+}
+.img-category-thuoc img{
+  border: 7px solid black;
+  width: 240px;
+    height: 225px;
+}
+.w3-display-container h2{
+    color: white;
+    font-weight: 500;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.img-index img:hover{
+    transform: scale(1.1);
+    transition: 0.85s;
+}

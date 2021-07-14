@@ -14,7 +14,7 @@ function header() {
           </div>
           <div class="header__menu col l-9 md-9 c-0">
             <ul>
-              <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> <span
+              <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
               <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
