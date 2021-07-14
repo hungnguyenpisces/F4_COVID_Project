@@ -1,12 +1,12 @@
 function loadCss() {
-  $("head").append(
-    '<link rel="stylesheet" type="text/css" href="/css/grid.css">',
-    '<link rel="stylesheet" type="text/css" href="/css/header.css">',
-  );
+	$("head").append(
+		'<link rel="stylesheet" type="text/css" href="/css/grid.css">',
+		'<link rel="stylesheet" type="text/css" href="/css/header.css">'
+	);
 }
 loadCss();
 function header() {
-    var ct = `
+	var ct = `
     <div class="grid wide">
         <div class="row">
           <div class="header__logo col l-3 md-3 c-10">
@@ -16,7 +16,7 @@ function header() {
             <ul>
               <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
-              <li><a href="/mngancountdown.html"><i class="fas fa-seedling fa-lg"></i> <span
+              <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
               <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
                     class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
@@ -64,46 +64,46 @@ function header() {
         </div>
       </div>
     `;
-    document.getElementById("header").innerHTML = ct;
+	document.getElementById("header").innerHTML = ct;
 }
 header();
 
 function navbar() {
-    var subMenu = document.getElementById('sub-menu');
-      var hiddenMenu = document.getElementById('hidden-menu');
-      subMenu.onclick = function () {
-        if (hiddenMenu.style.display == 'none') {
-          hiddenMenu.style.display = 'grid';
-        } else {
-          hiddenMenu.style.display = 'none';
-        }
-        window.addEventListener('mouseup', function (event) {
-          if (event.target != subMenu && event.target != hiddenMenu) {
-            hiddenMenu.style.display = 'none';
-            return;
-          }
-        });
-      }
-      var searchIcon = document.getElementById('search-icon');
-      var searchForm = document.getElementById('search-form');
-      searchIcon.onclick = function () {
-        if (searchForm.style.display == 'none') {
-          searchForm.style.display = 'grid';
-        } else {
-          searchForm.style.display = 'none';
-        }
-        window.addEventListener('mouseup', function (event) {
-          if (event.target != searchIcon && event.target.parentNode != searchForm) {
-            searchForm.style.display = 'none';
-            return;
-          }
-        });
-      }
+	var subMenu = document.getElementById("sub-menu");
+	var hiddenMenu = document.getElementById("hidden-menu");
+	subMenu.onclick = function () {
+		if (hiddenMenu.style.display == "none") {
+			hiddenMenu.style.display = "grid";
+		} else {
+			hiddenMenu.style.display = "none";
+		}
+		window.addEventListener("mouseup", function (event) {
+			if (event.target != subMenu && event.target != hiddenMenu) {
+				hiddenMenu.style.display = "none";
+				return;
+			}
+		});
+	};
+	var searchIcon = document.getElementById("search-icon");
+	var searchForm = document.getElementById("search-form");
+	searchIcon.onclick = function () {
+		if (searchForm.style.display == "none") {
+			searchForm.style.display = "grid";
+		} else {
+			searchForm.style.display = "none";
+		}
+		window.addEventListener("mouseup", function (event) {
+			if (event.target != searchIcon && event.target.parentNode != searchForm) {
+				searchForm.style.display = "none";
+				return;
+			}
+		});
+	};
 }
 navbar();
 
- function headerModal() {
-     var md = `
+function headerModal() {
+	var md = `
      <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -50px;">
         <div class="modal-content" style="padding: 20px;">
           <div class="container">
@@ -134,7 +134,20 @@ navbar();
         </div>
       </div>
      `;
-    document.getElementById("header-modal").innerHTML = md;
- }
- headerModal();
- 
+	document.getElementById("header-modal").innerHTML = md;
+}
+headerModal();
+
+// window.onscroll = function () {
+// 	scrollFunction();
+// };
+
+// function scrollFunction() {
+// 	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+// 		document.getElementById("header").style.backgroundColor = "#ffffff";
+// 		document.getElementById("header").style.border = "1px solid #ccc";
+// 	} else {
+// 		document.getElementById("header").style.border = "none";
+// 		document.getElementById("header").style.backgroundColor = "transparent";
+// 	}
+// }

@@ -12,7 +12,7 @@
     <link
       href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
       rel="stylesheet" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css" />
     <style>
       * {
         padding: 0;
@@ -22,52 +22,8 @@
 
       body,
       html {
-        height: 100%;
-        background-image: url("/images/comingsoon.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         font-family: "Fira Sans", sans-serif;
       }
-/* 
-      #coming-soon {
-        width: 100%;
-        height: 100%;
-        padding-top: 33.33333%;
-        background-color: rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        z-index: -1000;
-      }
-
-      .coming-soon-text,
-      .coming-soon-text h1,
-      .coming-soon-text h3 {
-        color: #fff;
-        text-align: center;
-        text-shadow: 0 0 10px #000;
-        font-weight: 300;
-      }
-
-      .coming-soon-text h1 {
-        font-size: 50px;
-      }
-
-      .coming-soon-text h3 {
-        font-size: 25px;
-      }
-
-      .dev-team {
-        color: #fff;
-        position: absolute;
-        left: 10px;
-        bottom: 10px;
-        font-weight: 200;
-      }
-
-      .dev-team a {
-        color: #fff;
-      } */
-
     </style>
   </head>
 
@@ -79,79 +35,55 @@
 
 
     <!-- Begin slider -->
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; autoplay: true; animation: push">
+    <div id="slider" class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+      uk-slideshow="ratio: 7:3; autoplay: true; animation: push">
 
       <ul class="uk-slideshow-items">
-          <li>
-              <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                  <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
-                
-              </div>
-            <div class="uk-position-center uk-position-small uk-text-center">
-                  <h1 uk-slideshow-parallax="x: 100,-100">Heading</h1>
-                  <h3 uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</h3>
-              </div>
-          </li>
-          <li>
-              <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
-                  <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
-              </div>
-            <div class="uk-position-center uk-position-small uk-text-center">
-                  <h1 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h1>
-                  <h3 uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</h3>
-              </div>
-          </li>
-          <li>
-              <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
-                  <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
-              </div>
-            <div class="uk-position-center uk-position-small uk-text-center">
-                  <h1 uk-slideshow-parallax="x: 100,-100">Heading</h1>
-                  <h3 uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</h3>
-              </div>
-          </li>
-          <li>
-            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
-                <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
-            </div>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+            <img src="https://getuikit.com/docs/images/photo.jpg" alt="" uk-cover>
+
+          </div>
           <div class="uk-position-center uk-position-small uk-text-center">
-                <h1 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h1>
-                <h3 uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</h3>
-            </div>
+            <h1 uk-slideshow-parallax="x: 100,-100">Heading</h1>
+            <h3 uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+            <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-center uk-position-small uk-text-center">
+            <h1 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h1>
+            <h3 uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-center uk-position-small uk-text-center">
+            <h1 uk-slideshow-parallax="x: 100,-100">Heading</h1>
+            <h3 uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</h3>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+            <img src="https://getuikit.com/docs/images/dark.jpg" alt="" uk-cover>
+          </div>
+          <div class="uk-position-center uk-position-small uk-text-center">
+            <h1 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h1>
+            <h3 uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</h3>
+          </div>
         </li>
       </ul>
-  
-      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-  
-  </div>
-<!-- End slider -->
 
-    <!-- Coming soon page temporary -->
-    <!-- <div id="coming-soon">
-      <div class="grid wide">
-        <div class="row">
-          <div class="col l-12 m-12 c-12 coming-soon-text">
-            <h1>L O A D I N G . . .</h1>
-          </div>
-          <div class="col l-12 m-12 c-12 coming-soon-text">
-            <h3>We are coding . . .</h3>
-          </div>
-          <div class="col l-12 m-12 c-12 coming-soon-text">
-            <div class="spinner-border text-primary" style="animation: spinner-border 0.5s linear infinite"></div>
-            <div class="spinner-border text-success" style="animation: spinner-border 0.55s linear infinite"></div>
-            <div class="spinner-border text-danger" style="animation: spinner-border 0.7s linear infinite"></div>
-            <div class="spinner-border text-warning" style="animation: spinner-border 0.65s linear infinite"></div>
-            <div class="spinner-border text-info" style="animation: spinner-border 0.6s linear infinite"></div>
-          </div>
-        </div>
-        <div class="dev-team">
-          Powered by <a href="#" target="_blank">F4 Team</a>
-        </div>
-      </div>
-    </div> -->
-    <!-- End of coming soon -->
-
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+        uk-slideshow-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+        uk-slideshow-item="next"></a>
+    </div>
+    <!-- End slider -->
 
     <!-- Begin footer -->
     <div id="footer">
