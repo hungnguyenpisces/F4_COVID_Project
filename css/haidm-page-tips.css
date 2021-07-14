@@ -33,3 +33,11 @@
 .w3-display-left{
     margin-top: -100px;
 }
+.w3-third img:hover{
+    transform: scale(1.05);
+    transition: 0.85s;
+}
+.img-tips{
+    width: 350px;
+    height: 225px;
+}
