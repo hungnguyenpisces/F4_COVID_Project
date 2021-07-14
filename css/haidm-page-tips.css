@@ -10,3 +10,12 @@
 #header{
     z-index: 1;
 }
+.w3-display-container{
+    margin-bottom: 100px;
+}
+.w3-display-container{
+    margin-top: 50px;
+}
+.w3-display-left{
+    margin-top: -100px;
+}
