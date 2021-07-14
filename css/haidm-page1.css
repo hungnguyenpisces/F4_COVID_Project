@@ -16,7 +16,10 @@
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   min-height: 200px;
-  height: 570px;
+  height: 600px;
+}
+.carousel{
+  margin-top: 75px;
 }
 .menu{
   font-size: 16px;
