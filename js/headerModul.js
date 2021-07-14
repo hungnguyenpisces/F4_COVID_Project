@@ -10,7 +10,7 @@ function header() {
     <div class="grid wide">
         <div class="row">
           <div class="header__logo col l-3 md-3 c-10">
-            <a href="/home.html"><img src="" alt=""><span>LOGO image here</span></a>
+            <a href="/home.html"><img src="/images/haidm-logo2.jpg" alt=""></a>
           </div>
           <div class="header__menu col l-9 md-9 c-0">
             <ul>
