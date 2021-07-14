@@ -18,11 +18,9 @@ h3 {
 
 .description{
     display: block;
-    margin-top: -150px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-    padding: 20px 25px;
+    margin: -120px auto 50px auto;
+    line-height: 1.8;
+    padding: 30px 25px;
     text-align: center;
     background-color: white !important;
     height: 150px; width: 700px;
@@ -30,27 +28,24 @@ h3 {
 
 .description2 {
     display: block;
-    margin-top: -110px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    margin: -100px auto 50px auto;
     line-height: 1.6;
-    padding: 16px;
+    padding: 20px;
     text-align: center;
     background-color: white !important;
     height: 120px;
-    width: 70%;
+    width: 65%;
 }
 
 .w3-bar-block .w3-bar-item {padding:20px}
 
 .description a{text-decoration: none}
-.description a:hover {text-decoration: underline; color: chocolate}
+.description a:hover {text-decoration: underline; color: crimson}
 
-.description2 a:hover {text-decoration: underline; color: chocolate}
+.description2 a:hover {text-decoration: underline; color: crimson}
 
 .w3-quarter a{ text-decoration: none}
-.w3-quarter a:hover {text-decoration: underline; color: chocolate}
+.w3-quarter a:hover {text-decoration: underline; color: crimson}
 .w3-quarter img:hover {box-shadow: 3px 3px 10px darkgrey}
 
 .tags {
@@ -81,7 +76,7 @@ input[type=text]:focus {
 }
 
 .newsletter .btn {
-    background-color: chocolate;
+    background-color: seagreen;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -95,7 +90,7 @@ input[type=text]:focus {
 
 .media {
     margin-top: -30px;
-    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/07/BoostFiber_1212394977_Feature.jpg?crop=535:301&width=1070&enable=upscale");
+    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/05/New-Fashioned-Crab-Louie-Salad_98-web.jpg?crop=535:301&width=1070&enable=upscale");
     background-size: auto;
     min-height: 550px;
     background-position: center;
@@ -103,7 +98,7 @@ input[type=text]:focus {
 }
 
 .media2 {
-    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/06/homemade-pickle-brine_h.jpg?crop=535:301&width=1070&enable=upscale");
+    background-image: url("https://www.cleaneatingmag.com/wp-content/uploads/2021/05/Eggplant-Rollups_98-web.jpg?crop=535:301&width=1070&enable=upscale");
     background-size: auto;
     background-repeat: no-repeat;
     min-height: 450px;
@@ -131,5 +126,8 @@ input[type=text]:focus {
     .w3-threequarter {
         overflow-x: hidden;
         height: auto;
+    }
+    .menu-headline {
+        margin-top: 30px;
     }
 }
