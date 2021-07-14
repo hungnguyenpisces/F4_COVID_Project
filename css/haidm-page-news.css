@@ -1,9 +1,18 @@
-.img-jumbotron{
-    width: 100%;
-    height: 500px;
-    margin-top: 50px; 
-   
-}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* margin: 25px 0; */
+    /* margin: 25px 0; */
+    font-family: "Fira Sans" !important ;
+    font-size: 1em;
+    /* color: #ffffff; */
+    /* background-color: #d9ef81; */
+    /* background-image: linear-gradient(to right, #6cbe03, #f4a700); */
+  }
+
 .container{
     margin-top: -10px;
 }
@@ -14,23 +23,16 @@
     border-radius: 100%;
 } */
 .main{
-    margin-top: 0px;
-}
-.jumbotron{
-    background-color: white !important;
-    height: 550px;
-    margin-bottom: 200px;
-}
-.title-jumbotron{
-    margin-top: -300px;
-    color: white;
+    margin-top: 10px;
 }
 .content-covid{
+    width: 110%;
     height: 500px;
     margin-top: 50px;
     display: flex;
-    background-image: url("/images/haidm-covid-background1.png");
-   background-repeat: no-repeat;
+    background-image: url("/images/haidm-covid-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .content-covid h3{
     margin-top: 10px;
