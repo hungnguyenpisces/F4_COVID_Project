@@ -26,21 +26,34 @@
     color: white;
 }
 .content-covid{
-    height: 400px;
+    height: 500px;
     margin-top: 50px;
     display: flex;
     background-image: url("/images/haidm-covid-background1.png");
    background-repeat: no-repeat;
 }
+.content-covid h3{
+    margin-top: 10px;
+}
+.content-covid a{
+    text-decoration: none;
+}
 .img-covid{
     width: 250px;
+    height: 170px;
     margin-top: 150px;  
+}
+.row img:hover{
+    opacity: 75%;
 }
 .content-covid h3{
     color: white;
 }
 .container{
     margin-bottom: 100px;
+}
+.item{
+    float: left;
 }
 .img-beauty{
     width: 450px;
@@ -49,15 +62,38 @@
 .content-beauty{
     display: flex;
 }
+.content-beauty h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.content-beauty figcaption{
+    width: 450px;
+    margin-left: 50px;
+}
 .content-sex{
    display: flex;
    margin-top: 50px;
+}
+.content-sex a{
+    color: black;
+}
+.item-detail{
+    margin-left: 50px;
+    vertical-align: middle;
 }
 .img-sex{
     width: 400px;
     margin-bottom: 20px;
     margin-top: -10px;
 }
+.content-daily{
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 2px solid saddlebrown;
+ }
+ .content-daily a{
+     color: black;
+ }
 #header{
     z-index: 1;
 }
