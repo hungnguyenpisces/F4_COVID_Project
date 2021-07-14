@@ -1,6 +1,7 @@
 function loadCss() {
   $("head").append(
-      '<link rel="stylesheet" type="text/css" href="/css/header.css">'
+    '<link rel="stylesheet" type="text/css" href="/css/grid.css">',
+    '<link rel="stylesheet" type="text/css" href="/css/header.css">',
   );
 }
 loadCss();
