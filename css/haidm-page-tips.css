@@ -7,3 +7,6 @@
 .menu{
     font-size: 16px;
 }
+#header{
+    z-index: 1;
+}

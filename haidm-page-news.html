@@ -21,81 +21,10 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="nav">
-                <div class="logo">
-                    <a href="/home.html" style="font-size: 20px; font-weight: 700;">
-                        <img class="logo-img" src="/images/logo.png" alt="">
-                    </a>
-                </div>
-                <!-- Đặt link vào navbar -->
-                <div class="menu">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
-                        <li><a href="#"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
-                        <li><a href="#"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
-                        <li><a href="#"><i class="fas fa-heartbeat"></i> Track Your self</a></li>
-                        <li>
-                            <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
-                            <ul id="hidden-menu" style="display: none;">
-                                <li><a href="##">Quick link 1</a></li>
-                                <li><a href="##">Quick link 2</a></li>
-                                <li><a href="##">Quick link 3</a></li>
-                                <li><a href="##">Quick link 4</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a id="search-icon" href="#"><i class="fas fa-search fa-lg"></i></a>
-                            <div id="search-form" style="display: none;">
-                                <input type="text" name="search" placeholder="Search" id="" class="form-control" />
-                            </div>
-                        </li>
-                        <li>
-                            <a data-toggle="modal" data-target="#myModal" href="#"><i
-                                    class="fas fa-address-card fa-lg"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Hết khu vực đặt link navbar -->
-            </div>
-
-            <!-- The Modal Sign In / Sign Up-->
-            <div class="modal fade" id="myModal">
-                <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -100px;">
-                    <div class="modal-content" style="padding: 20px;">
-                        <div class="container">
-                            <h2>Sign In / Sign Up</h2>
-                            <form action="#">
-                                <div class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email"
-                                        name="email" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="pwd">Password:</label>
-                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password"
-                                        name="pswd" required>
-                                </div>
-                                <div class="form-group form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                                    </label>
-                                </div>
-                                <button type="submit" class="btn btn-success">Sign In</button>
-                                <button type="submit" class="btn btn-primary">Sign Up</button>
-                            </form>
-                        </div>
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Begin header -->
+    <div class="modal fade" id="header-modal"></div>
+    <div id="header"></div>
+    <!-- End header -->
     <div class="main">
         <div class="jumbotron">
             <div class="container text-center">
@@ -191,9 +120,14 @@
         </div>
         
     </div>
-    <div class="footer"></div>
+    <div class="footer" id="footer"></div>
 
-    <script src="/js/navbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="/js/headerModul.js"></script>
+    <script src="/js/footerModul.js"></script>
 </body>
 
 </html>

@@ -160,3 +160,10 @@
   width: 300px;
   margin-bottom: 30px;
 }
+#header{
+  z-index: 1;
+  
+}
+.footer{
+  width: 100%;
+}
