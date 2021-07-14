@@ -199,7 +199,7 @@ main {
 .banner-top__description {
     color: #ffffff;
     font-style: italic;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 3rem;
     margin-left: 450px;
     display: block;
@@ -280,16 +280,17 @@ main {
     width: 100%;
     height: 60px;
     background-color: #ffff00;
-    padding-top: 13px;
+    padding-top: 9px;
     padding-left: 20px;
     transform: scaleY(0) ;
     transition: linear 0.4s;
 }
-
+.item-category__view a {
+    text-decoration: none;
+}
 .item-category__view-more {
     display: block;
-    text-decoration: none;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     width: 100px;
     border: 1px solid #363636;
     font-size: 1.4rem;
@@ -320,7 +321,7 @@ main {
     position: relative;
     top: 1px;
     margin: 0 auto;
-    width: 240px;
+    width: 260px;
     text-align: center;
     font-size: 4rem;
     padding-bottom: 30px;
@@ -398,6 +399,10 @@ main {
 
 .gymer-item-page {
     margin: 0 8px;
+}
+
+.gymer-item-page a {
+    text-decoration: none;
 }
 
 .gymer-item-page:first-child {
@@ -546,8 +551,8 @@ main {
     left: 45%;
     width: 50%;
     color: #8c9ede;
-    font-size: 6rem;
-    line-height: 8rem;
+    font-size: 5rem;
+    line-height: 7rem;
     font-style: italic;
 }
 
@@ -583,7 +588,7 @@ main {
     text-overflow: ellipsis;
 }
 
-.yoga-list-post {
+.grid.yoga-list-post {
     display: flex;
     justify-content: center;
 
@@ -724,7 +729,7 @@ main {
     height: 400px;
     background-size: cover;
     position: relative;
-    padding-top: 150px;
+    padding-top: 90px;
 }
 
 .arobic-footer::before {
@@ -749,7 +754,7 @@ main {
 
 .arobic-footer p {
     position: relative;
-    margin-top: 60px;
+ 
     z-index: 1;
     font-size: 6rem;
     color: #ffffff;
