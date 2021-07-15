@@ -1,11 +1,11 @@
 function loadCss() {
-    $("head").append(
-      '<link rel="stylesheet" type="text/css" href="/css/footer.css">'
-    );
-  }
-  loadCss();
-  function footer() {
-      var ct = `
+	$("head").append(
+		'<link rel="stylesheet" type="text/css" href="/css/footer.css">'
+	);
+}
+loadCss();
+function footer() {
+	var ct = `
       <div class="row">
         <div class="col l-3 md-6 c-12">
           <h3><i class="fas fa-user-friends"></i> <b>ABOUT US</b> </h3>
@@ -20,11 +20,11 @@ function loadCss() {
         <div class="col l-3 md-6 c-12">
           <h3><i class="fas fa-info"></i> <b>INFO</b></h3>
           <ul>
-            <li><i class="fas fa-map-marked-alt fa-lg"></i> Địa chỉ</li>
+            <li><i class="fas fa-map-marked-alt fa-lg"></i> Hanoi, Vietnam</li>
             <li><i class="fas fa-phone-alt fa-lg"></i> +123 456 789</li>
+            <li><i class="fas fa-fax fa-lg"></i> +987 654 3210</li>
             <li><i class="fas fa-envelope fa-lg"></i> Email@email.com</li>
             <li><i class="fas fa-globe-asia fa-lg"></i> www.website.com.vn</li>
-            <li><i class="fas fa-fax fa-lg"></i> +987 654 3210</li>
           </ul>
         </div>
         <div class="col l-3 md-6 c-12">
@@ -38,10 +38,10 @@ function loadCss() {
                 In / Sign Up</a>
             </li>
             <li>
-              <a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
+              <a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
             </li>
             <li>
-              <a href="/mngancountdown.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
+              <a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
             </li>
             <li>
               <a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a>
@@ -62,18 +62,20 @@ function loadCss() {
             </div>
           </div>
           <div class="footer-socials">
-            <i class="fab fa-facebook fa-3x"></i>
-            <i class="fab fa-twitter fa-3x"></i>
-            <i class="fab fa-instagram fa-3x"></i>
-            <i class="fab fa-youtube fa-3x"></i>
-            <i class="fab fa-google-plus fa-3x"></i>
-            <i class="fab fa-skype fa-3x"></i>
-            <i class="fab fa-snapchat-ghost fa-3x"></i>
+          <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-3x"></i></a>
+          <a href="#"><i class="fab fa-skype fa-3x"></i></a>
+          <a href="#"><i class="fab fa-snapchat-ghost fa-3x"></i></a>
           </div>
         </div>
       </div>
-      `
-    document.getElementById("footer").innerHTML = ct;
-
-  }
-  footer();
+      <div style="border-top: 1px solid #ccc;">
+    Powered by <a href="#"><b>F4-Team</b></a>
+  </div>
+      `;
+	document.getElementById("footer").innerHTML = ct;
+}
+footer();

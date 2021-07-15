@@ -5,6 +5,7 @@ function loadCss() {
 	);
 }
 loadCss();
+
 function header() {
 	var ct = `
     <div class="grid wide">
@@ -14,23 +15,48 @@ function header() {
           </div>
           <div class="header__menu col l-9 md-9 c-0">
             <ul>
-            <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
-                    class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
-              <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> <span
-                    class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
-              <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> <span
-                    class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
-              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> <span 
-                    class="hideOnMobile hideOnTablet">Health Calculators</span></a></li>
-              <li>
-                <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
-                <ul id="hidden-menu" style="display: none;">
-                  <li><a href="/userDashboard.html">User Dashboard</a></li>
-                  <li><a href="##">Quick link 2</a></li>
-                  <li><a href="##">Quick link 3</a></li>
-                  <li><a href="##">Quick link 4</a></li>
-                </ul>
+            <li class="dropdown">
+            <a href="/menu-gym-yoga-dance.html" class="dropbtn"><i class="fas fa-dumbbell"></i> <span class="hideOnMobile hideOnTablet">Be Stronger</span></a>
+                    <div class="dropdown-content">
+    				<a href="/menu-gym-yoga-dance.html#gymer">GYM</a>
+    				<a href="/menu-gym-yoga-dance.html#yoga">YOGA</a>
+    				<a href="/menu-gym-yoga-dance.html#arobic">AEROBIC</a>
+  					</div>
+             </li>
+              <li class="dropdown">
+              <a href="/haidm-index.html" class="dropbtn"><i class="fab fa-pagelines fa-lg"></i> <span class="hideOnMobile hideOnTablet">Healthy Life</span></a>
+                     <div class="dropdown-content">
+    				<a href="haidm-page-news.html">News</a>
+    				<a href="haidm-page-tips.html">Tips</a>
+    				<a href="haidm-page-thuoc.html">Functional Foods</a>
+  					</div>
               </li>
+              <li class="dropdown">
+              <a href="/mngan-main-page.html" class="dropbtn"><i class="fas fa-seedling fa-lg"></i> <span class="hideOnMobile hideOnTablet">Healthy Foods</span></a>                    
+              <div class="dropdown-content">
+    				<a href="healthy-recipes.html">Healthy Recipes</a>
+    				<a href="nutrition-facts.html">Nutrition Facts</a>
+    				<a href="mngancountdown.html">Event</a>
+  					</div>
+              </li>
+              <li class="dropdown">
+              <a href="/calc.html" class="dropbtn"><i class="fas fa-heartbeat"></i> <span class="hideOnMobile hideOnTablet">Health Calculators</span></a>
+                    <div class="dropdown-content">
+    				<a href="/calc.html">Body Mass Index (BMI)</a>
+    				<a href="/calc.html">Ideal Body Weight</a>
+    				<a href="/calc.html">Daily Calorie Intake</a>
+    				<a href="/calc.html">Calories Burned</a>
+  					</div>
+              </li>
+              <li class="dropdown">
+              <a href="#" class="dropbtn"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+                    <div class="dropdown-content">
+    				<a href="userDashboard.html">User Dashboard</a>
+    				<a href="userDashboard.html">Link 2</a>
+    				<a href="userDashboard.html">Link 3</a>
+  					</div>
+              </li>
+              
               <li>
                 <a id="search-icon" href="#"><i class="fas fa-search fa-lg"></i></a>
                 <div id="search-form" style="display: none;">
@@ -54,12 +80,13 @@ function header() {
             </label>
             <ul>
               <li><input type="text" name="search" placeholder="Search" id="" class="form-control" /></li>
+              <li><a href="/home.html"><i class="fas fa-home fa-lg"></i> Home</a></li>
               <li><a data-toggle="modal" data-target="#header-modal" href="#"><i class="fas fa-address-card fa-lg"></i>
                   Sign In / Sign Up</a></li>
-              <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
-              <li><a href="/haidm-page-news.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
-              <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
-              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Body Boots</a></li>
+                  <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
+              <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
+              <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
+              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a></li>
             </ul>
           </div>
         </div>
@@ -70,21 +97,6 @@ function header() {
 header();
 
 function navbar() {
-	var subMenu = document.getElementById("sub-menu");
-	var hiddenMenu = document.getElementById("hidden-menu");
-	subMenu.onclick = function () {
-		if (hiddenMenu.style.display == "none") {
-			hiddenMenu.style.display = "grid";
-		} else {
-			hiddenMenu.style.display = "none";
-		}
-		window.addEventListener("mouseup", function (event) {
-			if (event.target != subMenu && event.target != hiddenMenu) {
-				hiddenMenu.style.display = "none";
-				return;
-			}
-		});
-	};
 	var searchIcon = document.getElementById("search-icon");
 	var searchForm = document.getElementById("search-form");
 	searchIcon.onclick = function () {
