@@ -21,3 +21,6 @@
   transform: scale(1.1);
   transition: 0.85s;
 }
+.main{
+    margin-top: -20px;
+}
