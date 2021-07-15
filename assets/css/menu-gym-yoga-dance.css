@@ -316,18 +316,24 @@ main {
     border-bottom: 1px solid #868686;
 }
 
-.gymer-heading {
+.row .gymer-heading {
     display: block;
     position: relative;
+    text-decoration: none;
     top: 1px;
     margin: 0 auto;
     width: 260px;
     text-align: center;
     font-size: 4rem;
+    font-weight: 600;
     padding-bottom: 30px;
     border-bottom: 1px solid #ff0000;
+    color: #000;
 }
 
+.row .gymer-heading:hover {
+    color: #ff0000;
+}
 .gymer-main {
 
 }
@@ -488,18 +494,24 @@ main {
     border-bottom: 1px solid #868686;
 }
 
-.yoga-heading {
+.row .yoga-heading {
     display: block;
     position: relative;
+    text-decoration: none;
     top: 1px;
     margin: 0 auto;
     width: 240px;
     text-align: center;
+    font-weight: 600;
     font-size: 4rem;
     padding-bottom: 30px;
     border-bottom: 1px solid #0000ff;
+    color: #000;
 }
 
+.row .yoga-heading:hover {
+    color: #0000ff;
+}
 .yoga-main {
 
 }
@@ -633,16 +645,23 @@ main {
     border-bottom: 1px solid #868686;
 }
 
-.arobic-heading {
+.row .arobic-heading {
     display: block;
+    text-decoration: none;
     position: relative;
     top: 1px;
     margin: 0 auto;
     width: 240px;
     text-align: center;
+    font-weight: 500;
     font-size: 4rem;
     padding-bottom: 30px;
     border-bottom: 1px solid #008000;
+    color: #000;
+}
+
+.row .arobic-heading:hover {
+    color: #005800;
 }
 
 .arobic-main {
