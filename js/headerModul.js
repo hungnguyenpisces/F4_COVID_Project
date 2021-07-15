@@ -14,13 +14,14 @@ function header() {
           </div>
           <div class="header__menu col l-9 md-9 c-0">
             <ul>
+            <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
+                    class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
               <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Life</span></a></li>
               <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> <span
                     class="hideOnMobile hideOnTablet">Healthy Foods</span></a></li>
-              <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> <span
-                    class="hideOnMobile hideOnTablet">Be Stronger</span></a></li>
-              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> <span class="hideOnMobile hideOnTablet">Health Calculators</span></a></li>
+              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> <span 
+                    class="hideOnMobile hideOnTablet">Health Calculators</span></a></li>
               <li>
                 <a id="sub-menu" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
                 <ul id="hidden-menu" style="display: none;">
