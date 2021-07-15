@@ -9,7 +9,7 @@
 	z-index: 1000;
 	border-bottom: 1px solid #ccc;
 	font-family: "Fira Sans", sans-serif !important;
-	font-size: 16px ;
+	font-size: 16px;
 	display: flex;
 	align-items: center;
 	transition: all 0.25s;
@@ -35,17 +35,40 @@
 	gap: 36px;
 	margin: 0;
 }
-#hidden-menu {
-	z-index: 999;
-	grid-template-columns: auto !important;
-	justify-content: start !important;
-	gap: 1px !important;
-	position: absolute;
-	padding: 10px;
-	background: #fff;
-	text-align: center;
-	border: 1px solid #ccc;
+
+.dropdown {
+	position: relative;
+	display: inline-block;
 }
+
+.dropbtn {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 0 12px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
 #search-form {
 	z-index: 999;
 	position: absolute;
