@@ -38,10 +38,10 @@ function loadCss() {
                 In / Sign Up</a>
             </li>
             <li>
-              <a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
+              <a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a>
             </li>
             <li>
-              <a href="/mngancountdown.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
+              <a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a>
             </li>
             <li>
               <a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a>

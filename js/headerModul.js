@@ -18,9 +18,9 @@ function header() {
             <li class="dropdown">
             <a href="/menu-gym-yoga-dance.html" class="dropbtn"><i class="fas fa-dumbbell"></i> <span class="hideOnMobile hideOnTablet">Be Stronger</span></a>
                     <div class="dropdown-content">
-    				<a href="/menu-gym-yoga-dance.html">GYM</a>
-    				<a href="/menu-gym-yoga-dance.html">YOGA</a>
-    				<a href="/menu-gym-yoga-dance.html">AEROBIC</a>
+    				<a href="/menu-gym-yoga-dance.html#gymer">GYM</a>
+    				<a href="/menu-gym-yoga-dance.html#yoga">YOGA</a>
+    				<a href="/menu-gym-yoga-dance.html#arobic">AEROBIC</a>
   					</div>
              </li>
               <li class="dropdown">
@@ -80,12 +80,13 @@ function header() {
             </label>
             <ul>
               <li><input type="text" name="search" placeholder="Search" id="" class="form-control" /></li>
+              <li><a href="/home.html"><i class="fas fa-home fa-lg"></i> Home</a></li>
               <li><a data-toggle="modal" data-target="#header-modal" href="#"><i class="fas fa-address-card fa-lg"></i>
                   Sign In / Sign Up</a></li>
-              <li><a href="/haidm-page1.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
-              <li><a href="/haidm-page-news.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
-              <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
-              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Body Boots</a></li>
+                  <li><a href="/menu-gym-yoga-dance.html"><i class="fas fa-dumbbell"></i> Be Stronger</a></li>
+              <li><a href="/haidm-index.html"><i class="fab fa-pagelines fa-lg"></i> Healthy Life</a></li>
+              <li><a href="/mngan-main-page.html"><i class="fas fa-seedling fa-lg"></i> Healthy Foods</a></li>
+              <li><a href="/calc.html"><i class="fas fa-heartbeat"></i> Health Calculators</a></li>
             </ul>
           </div>
         </div>
