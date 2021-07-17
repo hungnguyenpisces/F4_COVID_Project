@@ -423,3 +423,31 @@ div[data-anim~=base] {
     top: 20px;
     left: 73px;
 }
+
+.persen-munber {
+    position: absolute;
+    font-size: 7rem;
+    top: 30px;
+    left: 92px;
+    font-weight: 300;
+}
+
+.persen-icon {
+    position: absolute;
+    font-size: 2rem;
+    top: 88px;
+    left: 166px;
+    font-weight: 600;
+}
+
+.lever-title {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.lever-title p {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}

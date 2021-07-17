@@ -1,8 +1,7 @@
-
-
-    // var canvas = document.getElementById('myCanvas'),
-    // ctx = canvas.getContext('2d');
-    // ctx.strokeStyle = "#FF0000";
-    // ctx.beginPath();
-    // ctx.arc(95,50,40,0,2*Math.PI);
-    // ctx.stroke();
+var t = document.getElementsByClassName('persen-munber')[0];
+var d = 0;
+var time = setInterval(function() {
+    if (d > 58) clearInterval(time);
+    d++;
+    t.innerHTML = d;
+}, 20);
