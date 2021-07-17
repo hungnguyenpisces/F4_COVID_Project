@@ -4,4 +4,14 @@ var time = setInterval(function() {
     if (d > 58) clearInterval(time);
     d++;
     t.innerHTML = d;
-}, 20);
+}, 12);
+
+$('#circle').circleProgress({
+    value: 0.6,
+    size: 160,
+    startAngle: -0.5 * Math.PI,
+    thickness: 3,
+    fill: {
+        color: "red"
+    }
+});

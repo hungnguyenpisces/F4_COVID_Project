@@ -313,135 +313,29 @@ html {
 
 /* circle persen */
 
-.wrapper {
-    margin-top: 20px;
+.lever {
+    margin-top: 24px;
     margin-left: 60px;
-    width: 200px;
-    /* Set the size of the progress bar */
-    height: 200px;
-    position: absolute;
-    /* Enable clipping */
-    clip: rect(0px, 140px, 140px, 70px);
-    /* Hide half of the progress bar */
-}
-
-
-/* Set the sizes of the elements that make up the progress bar */
-
-.circle {
-    width: 134px;
-    height: 134px;
-    border: 3px solid rgb(255, 0, 0);
-    border-radius: 80px;
-    position: absolute;
-    clip: rect(0px, 70px, 140px, 0px);
-}
-
-
-/* Using the data attributes for the animation selectors. */
-
-
-/* Base settings for all animated elements */
-
-div[data-anim~=base] {
-    -webkit-animation-iteration-count: 1;
-    /* Only run once */
-    -webkit-animation-fill-mode: forwards;
-    /* Hold the last keyframe */
-    -webkit-animation-timing-function: linear;
-    /* Linear animation */
-}
-
-.wrapper[data-anim~=wrapper] {
-    -webkit-animation-duration: 0.01s;
-    /* Complete keyframes asap */
-    -webkit-animation-delay: 1s;
-    /* Wait half of the animation */
-    -webkit-animation-name: close-wrapper;
-    /* Keyframes name */
-}
-
-.circle[data-anim~=left] {
-    -webkit-animation-duration: 1.2s;
-    /* Full animation time */
-    -webkit-animation-name: left-spin;
-}
-
-.circle[data-anim~=right] {
-    -webkit-animation-duration: 1s;
-    /* Half animation time */
-    -webkit-animation-name: right-spin;
-}
-
-
-/* Rotate the right side of the progress bar from 0 to 180 degrees */
-
-@-webkit-keyframes right-spin {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(180deg);
-    }
-}
-
-
-/* Rotate the left side of the progress bar from 0 to 360 degrees */
-
-@-webkit-keyframes left-spin {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(216deg);
-    }
-}
-
-
-/* Set the wrapper clip to auto, effectively removing the clip */
-
-@-webkit-keyframes close-wrapper {
-    to {
-        clip: rect(auto, auto, auto, auto);
-    }
-}
-
-.wrapper p {
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    z-index: 1;
-}
-
-.circle1 {
-    width: 134px;
-    height: 134px;
-    border-radius: 70px;
-    border: 3px solid #ddd;
-    position: absolute;
-    z-index: -1;
-    top: 20px;
-    left: 73px;
 }
 
 .persen-munber {
     position: absolute;
     font-size: 7rem;
-    top: 30px;
-    left: 92px;
+    top: 48px;
+    left: 106px;
     font-weight: 300;
 }
 
 .persen-icon {
     position: absolute;
     font-size: 2rem;
-    top: 88px;
-    left: 166px;
+    top: 106px;
+    left: 180px;
     font-weight: 600;
 }
 
 .lever-title {
-    margin-top: 200px;
+    margin-top: 28px;
     width: 100%;
     text-align: center;
 }
