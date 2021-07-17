@@ -18,9 +18,9 @@ function header() {
             <li class="dropdown">
             <a href="/menu-gym-yoga-dance.html" class="dropbtn"><i class="fas fa-dumbbell"></i> <span class="hideOnMobile hideOnTablet">Be Stronger</span></a>
                     <div class="dropdown-content">
-    				<a href="/menu-gym-yoga-dance.html#gymer">GYM</a>
-    				<a href="/menu-gym-yoga-dance.html#yoga">YOGA</a>
-    				<a href="/menu-gym-yoga-dance.html#arobic">AEROBIC</a>
+    				<a href="/gym.html">GYM</a>
+    				<a href="/yoga.html">YOGA</a>
+    				<a href="/arobic.html">AEROBIC</a>
   					</div>
              </li>
               <li class="dropdown">
