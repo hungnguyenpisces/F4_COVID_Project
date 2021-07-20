@@ -17,10 +17,20 @@
     h3 {font-family: "Fira Sans"; padding: 0 10px; margin-top: 5px;color: #1D262D; font-weight: 600px;}
     .here:hover {color: coral}
     .navbar {box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-        width: border-box}
+        width: border-box;}
     .w3-quarter a{ text-decoration: none}
     .w3-quarter a:hover {text-decoration: underline; color: cornflowerblue}
     .w3-quarter img:hover {box-shadow: 3px 3px 10px darkgrey}
+    .newsletter {
+        display: block;
+        margin: 25px auto;
+        border-style: solid; border-width: 7px; border-color: gainsboro;
+        padding: 20px;
+        width: 1000px;
+        text-align: center;}
+    input[type=text] { width: 80%; padding: 15px; margin: 5px 0 22px 0; border: none; background: #f1f1f1;}
+    input[type=text]:focus {background-color: #ddd;outline: none;}
+    .btn:hover {opacity: 1.1;}
 </style>
 <body>
 
@@ -30,22 +40,19 @@
 <!-- End header -->
 
 <!-- Navbar (sit on top) -->
-<div class="container" style="margin-top: 80px">
+<div class="container" style="margin-top: 90px">
     <div class="w3-bar menu-headline">
         <h1 style="font-size: 70px; text-align: center; margin-bottom: 10px"> F4 Healthy Eating </h1>
     </div>
-    <div class="w3-bar navbar" style="letter-spacing: 2px">
-        <a href="/mngan-main-page.html" class="w3-left w3-bar-item w3-button">Home</a>
-        <div class="w3-right">
-            <a href="/healthy-recipes.html" class="w3-bar-item w3-button">Healthy Recipes</a>
-            <a href="/nutrition-facts.html" class="w3-bar-item w3-button">Nutrition Facts</a>
-            <a href="mngancountdown.html" class="w3-bar-item w3-button">Our Virtual Event</a>
-        </div>
+    <div class="navbar" style="letter-spacing: 2px">
+            <a href="#food" class="w3-bar-item w3-button">Healthy Recipes</a>
+            <a href="#nutrition" class="w3-bar-item w3-button">Nutrition Facts</a>
+            <a href="#event" class="w3-bar-item w3-button">Our Virtual Event</a>
     </div>
 </div>
 
 <!-- PAGE CONTENT -->
-<div class="container" style="max-width:1200px;margin-top:100px; padding: 8px 16px !important;">
+<div class="container" style="max-width:1200px;margin-top:80px; padding: 8px 16px !important;">
 
     <!-- First Photo Grid-->
     <div class="w3-row-padding w3-padding-16 w3-center" id="food">
@@ -172,11 +179,13 @@
                 during this pandemic. </p>
         </div>
     </div>
-</div>
+    <hr>
+
 <!-- Footer -->
     <div id="footer">
     </div>
 <!-- End page content -->
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
